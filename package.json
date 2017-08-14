@@ -1,0 +1,24 @@
+{
+  "name": "jakets-uglifyjs",
+  "version": "1.0.1",
+  "description": "uglifyjs task for Jakets.",
+  "main": "Jakefile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reshadi/jakets-uglifyjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reshadi/jakets-uglifyjs/issues"
+  },
+  "homepage": "https://github.com/reshadi/jakets-uglifyjs",
+  "dependencies": {
+    "@types/uglify-js": "^2.6.29",
+    "jakets": "git+https://github.com/reshadi/jakets.git#v5.x.x",
+    "uglify-js": "^3.0.27"
+  }
+}
